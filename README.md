@@ -338,24 +338,6 @@ The main limitations are:
 
 The primary purpose of this project is to understand how Transformer-based language models work internally.
 
-## Future Improvements
-
-Possible improvements include:
-
-- Implementing BPE or another subword tokenizer
-- Training on a larger corpus
-- Improving regularization and generalization
-- Saving and loading the best validation checkpoint
-- Experimenting with larger model configurations
-- Adding top-k sampling
-- Adding top-p (nucleus) sampling
-- Experimenting with different context lengths
-- Comparing character-level and subword tokenization
-- Building a simple interface for text generation
-
-## Project Goal
-
-The main goal of this project was not to build a large-scale or production-ready LLM.
 
 It was to understand the internal pipeline of a Transformer language model by implementing its major components and training a small model from scratch.
 
